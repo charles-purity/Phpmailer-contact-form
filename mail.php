@@ -22,8 +22,10 @@
         $mail->Port = '587';
 
 
-        $mail->setFrom('obinnacharles28@yahoo.com');
+        $mail->setFrom('charleydrumz@gmail.com');
+        $mail->addAddress('angelinajolie100122@gmail.com');
         $mail->addAddress('charleydrumz@gmail.com');
+        
 
 
         $mail->isHTML(true);
